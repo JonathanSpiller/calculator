@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Digital-7';
+  src: URL('digital-7.ttf') format('truetype');
+}
+
+#container {
+	background-color: #CCC;
+	width: 350px;
+	padding: 20px;
+}
+
+#screen {
+	background-color: #000;
+	color: #FFF;
+	text-align: right;
+	font-size: 36px;
+	font-family: Digital-7;
+	height: 2.5em;
+	padding: 0.75em 0;
+	overflow: hidden;
+	border-left:0.5em solid transparent;
+    border-right:0.5em solid transparent;
+}
+
+#keypad {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: auto auto auto auto;
+	grid-template-rows: auto auto auto auto auto;
+	margin-top: 10px;
+}
+
+.button {
+	text-align: center;
+	font-size: 30px;
+	line-height: 60px;
+	background-color: #EEE;
+	border: solid 1px #222;
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.operator {
+	background-color: #CFF;
+}
+#equals {
+	grid-column-start: 4;
+	grid-row-start: 3;
+	grid-row-end: 6;
+	background-color: dodgerblue;
+}
+
+#c {
+	background-color: indianred;
+}
