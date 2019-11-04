@@ -4,6 +4,13 @@
 	box-sizing: border-box;
 }
 
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 @font-face {
   font-family: 'Digital-7';
   src: URL('digital-7.ttf') format('truetype');
@@ -72,5 +79,5 @@
 	background-color: #cd5c5c;  /*indianred*/
 }
 #c:hover{
-	background-color: #ef6a60;
+	background-color: #b9302b;
 }
