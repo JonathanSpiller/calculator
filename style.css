@@ -40,24 +40,37 @@
 	text-align: center;
 	font-size: 30px;
 	line-height: 60px;
-	background-color: #EEE;
-	border: solid 1px #222;
+	background-color: #EEEEEE;
 	padding: 5px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+.button:hover{
+	background-color: #AAAAAA;
+}
 
 .operator {
-	background-color: #CFF;
+	background-color: #ccffff;
 }
+.operator:hover{
+	background-color: #8ce1ff;
+}
+
 #equals {
 	grid-column-start: 4;
 	grid-row-start: 3;
 	grid-row-end: 6;
-	background-color: dodgerblue;
+	background-color: #1e90ff; /*dodgerblue*/
+}
+#equals:hover{
+	background-color: #2167ff;
 }
 
+
 #c {
-	background-color: indianred;
+	background-color: #cd5c5c;  /*indianred*/
+}
+#c:hover{
+	background-color: #ef6a60;
 }
