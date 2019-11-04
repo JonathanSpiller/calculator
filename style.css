@@ -20,12 +20,21 @@ body{
 	background-color: #CCC;
 	width: 350px;
 	padding: 20px;
+	border-radius: 5%;
+	border: solid 2px darkgrey;
+	box-shadow: 5px 10px 8px 10px darkgrey;
+}
+
+#screenborder{
+	border: solid 4px darkgrey;
 }
 
 #screen {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 	background-color: #000;
 	color: #FFF;
-	text-align: right;
 	font-size: 36px;
 	font-family: Digital-7;
 	height: 2.5em;
@@ -52,16 +61,26 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	box-shadow: 2px 2px darkgrey;
 }
 .button:hover{
-	background-color: #AAAAAA;
+	background-color: #DDDDDD;
+	box-shadow: 2px 2px darkgrey;
+}
+.button:active{
+	background-color: #EEEEEE;
+	box-shadow: 0px 0px 0px 0px black;
 }
 
 .operator {
 	background-color: #ccffff;
 }
 .operator:hover{
-	background-color: #8ce1ff;
+	background-color: #bbeaea;
+}
+.operator:active{
+	background-color: #ccffff;
+	box-shadow: 0px 0px 0px 0px black;
 }
 
 #equals {
@@ -73,11 +92,18 @@ body{
 #equals:hover{
 	background-color: #2167ff;
 }
-
+#equals:active{
+	background-color: #1e90ff;
+	box-shadow: 0px 0px 0px 0px black;
+}
 
 #c {
 	background-color: #cd5c5c;  /*indianred*/
 }
 #c:hover{
 	background-color: #b9302b;
+}
+#x:active{
+	background-color: #cd5c5c;
+	box-shadow: 0px 0px 0px 0px black;
 }
