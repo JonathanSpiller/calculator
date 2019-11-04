@@ -36,7 +36,7 @@ function processinput(key){
 				result = formatNumber(calcs[operator](parseFloat(operand1), parseFloat(operand2)));
 				operand1 = operand2 = operator = "";
 			}
-			else {
+			else if (operand1 != ""){
 				operator = (key !== "=")  ? key : "";
 			}
 			
